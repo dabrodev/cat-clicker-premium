@@ -1,14 +1,31 @@
-var counter = 0;
+$(function(){
 
-var elem = document.getElementById('cat-pic');
-var counterArea = document.createElement("span");
-counterArea.innerHTML = 0;
-document.getElementById("log").appendChild(counterArea);
+  var model = {
+    currentCat: null,
+    cats: [
+      {
 
-elem.addEventListener('click', function(){
-  counter += 1;
+      },
+      {
 
-  counterArea.innerHTML = counter;
-  document.getElementById("log").appendChild(counterArea);
+      },
+      {
 
-}, false);
+      },
+      {
+
+      },
+      
+    ]
+
+  };
+
+  var octopus = {
+
+  };
+
+  var view = {
+
+  };
+
+});
